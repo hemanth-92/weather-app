@@ -110,7 +110,7 @@ function getLocation() {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(showPosition);
   } else {
-    //show an alert for no gelolocation support available
+    //show an alert for no geolocation support available
     Window.alert("Geolocation support not available");
   }
 }
