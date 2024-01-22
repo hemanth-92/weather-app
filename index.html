@@ -4,19 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="wrapper">
-      <h1>Weather App</h1>
-      <div class="tab-container">
-        <p class="tab" data-userWeather>Your weather</p>
-        <p class="tab" data-searchWeather>Search weather</p>
-      </div>
-      <div class="weather-container">
-        <div class="sub-container-location">
-          <p>Grant location access</p>
-          <p>Allow access to get weather information</p>
-        </div>
         <form class="form-container">
           <input placeholder="Search for City...." data-searchInput>
           <button class="btn" type="submit"></button>
@@ -29,18 +20,17 @@
 
         <!-- weather information-->
         <div class="user-Weatherinfo container">
-          <div class="cityName">
-            <p>cityName</p>
-            <img src="coutryIron" alt="country icon">
+          <div class="card">
+            <div class="cityName">
+              <p>cityName</p>
+              <img src="coutryIron" alt="country icon">
+            <!-- Weather description -->
+            <p>weather-description</p>
+            ,<img data-weather-desc">
+            <!-- Temperature-->
+            <p>data-temp</p>
+            </div>
           </div>
-
-          <!-- Weather description -->
-          <p>weather-description</p>
-          ,<img data-weather-desc">
-
-          <!-- Temperature-->
-          <p>data-temp</p>
-          
         </div>
       </div>
       </div>
