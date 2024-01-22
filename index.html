@@ -4,35 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="wrapper">
-        <form class="form-container">
-          <input placeholder="Search for City...." data-searchInput>
-          <button class="btn" type="submit"></button>
-        </form>
-        <div class="sub-container loding-container">
-          <img src="" alt="loading-img">
-          <p>Loading</p>
+    <div class="flex-container">
+      <!-- first half-->
+      <div class="Weatherinfo-container">
+        <div class="cityName">
+          <p>cityName</p>
+          <img data-countryIcon />
         </div>
 
-
-        <!-- weather information-->
-        <div class="user-Weatherinfo container">
-          <div class="card">
-            <div class="cityName">
-              <p>cityName</p>
-              <img src="coutryIron" alt="country icon">
-            <!-- Weather description -->
-            <p>weather-description</p>
-            ,<img data-weather-desc">
-            <!-- Temperature-->
-            <p>data-temp</p>
-            </div>
-          </div>
+        <!-- Weather description -->
+        <div class="Weatherinfo">
+          <p>weather-description</p>
+          <img data-weather-desc">
+          <!-- Temperature-->
+          <p>data-temp</p>
         </div>
       </div>
+
+      <!-- second half-->
+      <div class="additionalInfo">
+        <form class="form-container">
+          <input placeholder="Search for City...." data-searchInput />
+          <button class="btn" type="submit"></button>
+        </form>
+        <div class="parameter-container">
+          <!--card 1-->
+          <div class="parameter">
+            <p>windspeed</p>
+            <p data-windspeed></p>
+          </div>
+
+          <!--card 2-->
+          <div class="parameter">
+            <p>humidity</p>
+            <p data-humidity></p>
+          </div>
+
+          <!--card 3-->
+          <div class="parameter">
+            <p>Precipitation</p>
+            <p data-Precipitation></p>
+          </div>
+        </div>
       </div>
     </div>
   </body>
