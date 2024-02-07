@@ -4,51 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- div class="title-container">
-      <h2 class="title">Current Weather</h2>
-    </div> -->
-    <div class="weather-card-body">
-      <div class="Weather-card-panel">
+    <div class="contaier-body">
+      <div class="weather-card-panel">
+        <div class="details">
+          <p class="week"></p>
+          <p class="Date"></p>
+          <div class="location"></div>
+          <p class="loc"></p>
+          <p class="flag"></p>
+        </div>
         <div class="forecast-container">
-          <svg class="weather-icon" data-src = images/weathericons/34.svg" viewBox="0 0 288 288" width="88" height="88"><g stroke-width="9.36" fill="none" fill-rule="evenodd"><path >
-          </svg>
-          <div class="forecast temp"></div>
-        </div>
-        <!-- Weather description -->
-        <div class="Weatherinfo">
-          <p>weather-description</p>
-          <img data-weather-desc">
-          <!-- Temperature-->
-          <p>data-temp</p>
-        </div>
-      </div>
-
-      <!-- second half-->
-      <div class="additionalInfo">
-        <form class="form-container">
-          <input placeholder="Search for City...." data-searchInput />
-          <button class="btn" type="submit"></button>
-        </form>
-        <div class="parameter-container">
-          <!--card 1-->
-          <div class="parameter">
-            <p>windspeed</p>
-            <p data-windspeed></p>
-          </div>
-
-          <!--card 2-->
-          <div class="parameter">
-            <p>humidity</p>
-            <p data-humidity></p>
-          </div>
-
-          <!--card 3-->
-          <div class="parameter">
-            <p>Precipitation</p>
-            <p data-Precipitation></p>
+          <div class="weather-icon"></div>
+          <div class="temp-container">
+            <div class="temp"></div>
+            <div class="real-feel"></div>
           </div>
         </div>
       </div>
