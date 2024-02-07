@@ -6,6 +6,12 @@
     <title>Weather App</title>
   </head>
   <body>
+    <div class="search">
+      <form>
+        <input type="text" placeholder="Search your city" />
+        <label for="search"></label>
+      </form>
+    </div>
     <div class="contaier-body">
       <div class="weather-card-panel">
         <div class="details">
@@ -22,7 +28,24 @@
             <div class="real-feel"></div>
           </div>
         </div>
-        <div class="weather-panel-details"></div>
+
+        <!--weather panel-->
+        <div class="weather-panel-details">
+          <div class="wind">
+            <span class="label">Wind</span>
+            <span class="value"></span>
+          </div>
+
+          <div class="humidity">
+            <span class="label">Humidity</span>
+            <span class="value"></span>
+          </div>
+
+          <div class="pressure">
+            <span class="label">Pressure</span>
+            <span class="value"></span>
+          </div>
+        </div>
       </div>
     </div>
   </body>
