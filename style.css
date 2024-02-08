@@ -6,14 +6,9 @@
 }
 
 body {
-  background-color: #34434b;
+  background-color: red;
 }
-root {
-  --bg: #1f1f1f;
-  --header-bg: #1f1f1f;
-  --header-bg-top: #1f1f1f;
-}
-.weather-card-body {
+.container-body {
   width: 600px;
   height: 300px;
   background: linear-gradient(135deg, #2b6998, #e6e8e6);
@@ -22,18 +17,5 @@ root {
   border-radius: 20px;
   padding: 40px 35px;
   display: flex;
-}
-.weatherInfo-container {
-  width: 300px;
-  height: 150px;
-  color: "black";
-  display: flex;
-}
-h1 {
-  color: teal;
-}
-
-.title-container {
-  background-color: #fff;
-  opacity: 0.6;
+  justify-content: center;
 }
