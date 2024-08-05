@@ -1,52 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather App</title>
+    <title>Vite + React</title>
   </head>
   <body>
-    <div class="search">
-      <form>
-        <input type="text" placeholder="Search your city" />
-        <label for="search"></label>
-      </form>
-    </div>
-    <div class="container-body">
-      <div class="weather-card-panel">
-        <div class="details">
-          <p class="week"></p>
-          <p class="Date"></p>
-          <div class="location"></div>
-          <p class="loc"></p>
-          <p class="flag"></p>
-        </div>
-        <div class="forecast-container">
-          <div class="weather-icon"></div>
-          <div class="temp-container">
-            <div class="temp"></div>
-            <div class="real-feel"></div>
-          </div>
-        </div>
-
-        <!--weather panel-->
-        <div class="weather-panel-details">
-          <div class="wind">
-            <span class="label">Wind</span>
-            <span class="value"></span>
-          </div>
-
-          <div class="humidity">
-            <span class="label">Humidity</span>
-            <span class="value"></span>
-          </div>
-
-          <div class="pressure">
-            <span class="label">Pressure</span>
-            <span class="value"></span>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
